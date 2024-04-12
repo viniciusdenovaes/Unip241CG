@@ -25,9 +25,9 @@ public class View {
 		return janela.getValorSlideT();
 	}
 
-	public Ponto getValorS() {
-		return janela.getValorSlideS();
-	}
+//	public Ponto getValorS() {
+//		return janela.getValorSlideS();
+//	}
 
 	public double getValorR() {
 		return janela.getValorSlideR();

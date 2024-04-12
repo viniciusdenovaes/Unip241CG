@@ -9,6 +9,10 @@ public class Ponto {
 		x = aX;
 		y = aY;
 	}
+	
+	public Ponto copy() {
+		return new Ponto(x, y);
+	}
 
 	@Override
 	public String toString() {
